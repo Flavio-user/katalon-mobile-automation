@@ -1,0 +1,152 @@
+[38;5;112m[Appium][0m Welcome to Appium v3.0.0
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m59060[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:59060/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://192.168.0.26:59060/wd/hub
+	http://127.0.0.1:59060/wd/hub (only accessible from the same host)
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@7.0.0 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 4 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> POST /wd/hub/session {"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Usuario\\Katalon Studio\\mda-2.3.0-27.apk","appium:appWaitActivity":"*","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"ZY22MDT345","appium:deviceName":"motorola motorola edge 60 (Android 16)","appium:fullReset":false,"appium:mjpegServerPort":59071,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"16","appium:systemPort":59072,"appium:udid":"ZY22MDT345","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\Usuario\\Katalon Studio\\mda-2.3.0-27.apk","appium:appWaitActivity":"*","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"ZY22MDT345","appium:deviceName":"motorola motorola edge 60 (Android 16)","appium:fullReset":false,"appium:mjpegServerPort":59071,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"16","appium:systemPor…
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\Usuario\.appium\node_modules\appium-uiautomator2-driver
+[38;5;40m[AppiumDriver@1d07][0m Appium v3.0.0 creating new AndroidUiautomator2Driver (v7.0.0) session
+[38;5;40m[AppiumDriver@1d07][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;40m[AppiumDriver@1d07][0m Appium's BaseDriver version is 10.8.0
+[38;5;40m[AppiumDriver@1d07][0m AndroidUiautomator2Driver's BaseDriver version is 10.8.0
+[38;5;-81m[AndroidUiautomator2Driver@5c66][0m The following provided capabilities were not recognized by this driver:
+[38;5;-81m[AndroidUiautomator2Driver@5c66][0m   deviceId
+[38;5;130m[2c2edf5e][0m[38;5;-81m[AndroidUiautomator2Driver@5c66][0m Session created with session id: 2c2edf5e-070e-41ad-b181-2cddef9ed612
+[38;5;130m[2c2edf5e][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\Usuario\.katalon\tools\android_sdk' (newest first):
+[38;5;130m[2c2edf5e][0m[38;5;229m[ADB][0m     C:\Users\Usuario\.katalon\tools\android_sdk\build-tools\29.0.3
+[38;5;130m[2c2edf5e][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Usuario\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;130m[2c2edf5e][0m[38;5;-81m[AndroidUiautomator2Driver@5c66][0m Retrieving device list
+[38;5;130m[2c2edf5e][0m[38;5;-81m[AndroidUiautomator2Driver@5c66][0m Using device: ZY22MDT345
+[38;5;130m[2c2edf5e][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Usuario\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;130m[2c2edf5e][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\Usuario\Katalon Studio\mda-2.3.0-27.apk'
+[38;5;130m[2c2edf5e][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;130m[2c2edf5e][0m[38;5;-81m[AndroidUiautomator2Driver@5c66][0m Relaxing hidden api policy
+[38;5;130m[2c2edf5e][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Usuario\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;130m[2c2edf5e][0m[38;5;229m[ADB][0m Package name: 'com.saucelabs.mydemoapp.android'
+[38;5;130m[2c2edf5e][0m[38;5;229m[ADB][0m Main activity name: 'com.saucelabs.mydemoapp.android.view.activities.SplashActivity'
+[38;5;130m[2c2edf5e][0m[38;5;229m[ADB][0m Using 'apksigner.jar' from 'C:\Users\Usuario\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[38;5;130m[2c2edf5e][0m[38;5;-81m[AndroidUiautomator2Driver@5c66][0m Server packages are not going to be (re)installed
+[38;5;130m[2c2edf5e][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;130m[2c2edf5e][0m[38;5;229m[ADB][0m 'C:\Users\Usuario\Katalon Studio\mda-2.3.0-27.apk' is signed with a non-default certificate
+[38;5;130m[2c2edf5e][0m[38;5;-81m[AndroidUiautomator2Driver@5c66][0m Did not get the confirmation of UiAutomator2 server session deletion. Original error: Session ID is not set, but saw a URL that requires it (/)
+[38;5;130m[2c2edf5e][0m[38;5;-81m[AndroidUiautomator2Driver@5c66][0m Restoring hidden api policy to the device default configuration
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 92001 ms - 1793
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> POST /wd/hub/session {"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Usuario\\Katalon Studio\\mda-2.3.0-27.apk","appium:appWaitActivity":"*","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"ZY22MDT345","appium:deviceName":"motorola motorola edge 60 (Android 16)","appium:fullReset":false,"appium:mjpegServerPort":60971,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"16","appium:systemPort":60972,"appium:udid":"ZY22MDT345","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\Usuario\\Katalon Studio\\mda-2.3.0-27.apk","appium:appWaitActivity":"*","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"ZY22MDT345","appium:deviceName":"motorola motorola edge 60 (Android 16)","appium:fullReset":false,"appium:mjpegServerPort":60971,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"16","appium:systemPor…
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\Usuario\.appium\node_modules\appium-uiautomator2-driver
+[38;5;40m[AppiumDriver@1d07][0m Appium v3.0.0 creating new AndroidUiautomator2Driver (v7.0.0) session
+[38;5;40m[AppiumDriver@1d07][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;40m[AppiumDriver@1d07][0m Appium's BaseDriver version is 10.8.0
+[38;5;40m[AppiumDriver@1d07][0m AndroidUiautomator2Driver's BaseDriver version is 10.8.0
+[38;5;1m[AndroidUiautomator2Driver@3672][0m The following provided capabilities were not recognized by this driver:
+[38;5;1m[AndroidUiautomator2Driver@3672][0m   deviceId
+[38;5;31m[cce514d8][0m[38;5;1m[AndroidUiautomator2Driver@3672][0m Session created with session id: cce514d8-a78d-4cba-91e0-d1ff1d3890be
+[38;5;31m[cce514d8][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Usuario\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;31m[cce514d8][0m[38;5;1m[AndroidUiautomator2Driver@3672][0m Retrieving device list
+[38;5;31m[cce514d8][0m[38;5;1m[AndroidUiautomator2Driver@3672][0m Using device: ZY22MDT345
+[38;5;31m[cce514d8][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Usuario\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;31m[cce514d8][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\Usuario\Katalon Studio\mda-2.3.0-27.apk'
+[38;5;31m[cce514d8][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;31m[cce514d8][0m[38;5;1m[AndroidUiautomator2Driver@3672][0m Relaxing hidden api policy
+[38;5;31m[cce514d8][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Usuario\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;31m[cce514d8][0m[38;5;229m[ADB][0m Package name: 'com.saucelabs.mydemoapp.android'
+[38;5;31m[cce514d8][0m[38;5;229m[ADB][0m Main activity name: 'com.saucelabs.mydemoapp.android.view.activities.SplashActivity'
+[38;5;31m[cce514d8][0m[38;5;1m[AndroidUiautomator2Driver@3672][0m Server packages are not going to be (re)installed
+[38;5;31m[cce514d8][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 0 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 0 ms - 110
+[38;5;86m[HTTP][0m --> POST /wd/hub/session {"capabilities":{"firstMatch":[{"appium:appWaitActivity":"*","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"ZY22MDT345","appium:deviceName":"motorola motorola edge 60 (Android 16)","appium:mjpegServerPort":61135,"appium:newCommandTimeout":1800,"appium:platformVersion":"16","appium:systemPort":8287,"appium:udid":"ZY22MDT345","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:appWaitActivity":"*","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"ZY22MDT345","appium:deviceName":"motorola motorola edge 60 (Android 16)","appium:mjpegServerPort":61135,"appium:newCommandTimeout":1800,"appium:platformVersion":"16","appium:systemPort":8287,"appium:udid":"ZY22MDT345","platformName":"ANDROID"}}
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\Usuario\.appium\node_modules\appium-uiautomator2-driver
+[38;5;40m[AppiumDriver@1d07][0m Appium v3.0.0 creating new AndroidUiautomator2Driver (v7.0.0) session
+[38;5;40m[AppiumDriver@1d07][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;40m[AppiumDriver@1d07][0m Appium's BaseDriver version is 10.8.0
+[38;5;40m[AppiumDriver@1d07][0m AndroidUiautomator2Driver's BaseDriver version is 10.8.0
+[38;5;-49m[AndroidUiautomator2Driver@0a96][0m The following provided capabilities were not recognized by this driver:
+[38;5;-49m[AndroidUiautomator2Driver@0a96][0m   deviceId
+[38;5;99m[49e2ad3e][0m[38;5;-49m[AndroidUiautomator2Driver@0a96][0m Session created with session id: 49e2ad3e-692c-492e-a9bc-4601def55710
+[38;5;99m[49e2ad3e][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Usuario\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;99m[49e2ad3e][0m[38;5;-49m[AndroidUiautomator2Driver@0a96][0m Retrieving device list
+[38;5;99m[49e2ad3e][0m[38;5;-49m[AndroidUiautomator2Driver@0a96][0m Using device: ZY22MDT345
+[38;5;99m[49e2ad3e][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Usuario\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;99m[49e2ad3e][0m[38;5;-49m[AndroidUiautomator2Driver@0a96][0m Neither 'app' nor 'appPackage' was set. Starting UiAutomator2 without the target application
+[38;5;99m[49e2ad3e][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;99m[49e2ad3e][0m[38;5;-49m[AndroidUiautomator2Driver@0a96][0m Relaxing hidden api policy
+[38;5;99m[49e2ad3e][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Usuario\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;99m[49e2ad3e][0m[38;5;-49m[AndroidUiautomator2Driver@0a96][0m Server packages are not going to be (re)installed
+[38;5;99m[49e2ad3e][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;99m[49e2ad3e][0m[38;5;-49m[AndroidUiautomator2Driver@0a96][0m Starting UIAutomator2 server 9.11.1
+[38;5;99m[49e2ad3e][0m[38;5;-49m[AndroidUiautomator2Driver@0a96][0m Using UIAutomator2 server from 'C:\Users\Usuario\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v9.11.1.apk' and test from 'C:\Users\Usuario\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;99m[49e2ad3e][0m[38;5;-49m[AndroidUiautomator2Driver@0a96][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;99m[49e2ad3e][0m[38;5;-49m[AndroidUiautomator2Driver@0a96][0m socket hang up
+[38;5;99m[49e2ad3e][0m[38;5;-49m[AndroidUiautomator2Driver@0a96][0m Determined the downstream protocol as 'W3C'
+[38;5;99m[49e2ad3e][0m[38;5;-49m[AndroidUiautomator2Driver@0a96][0m Screen already unlocked, doing nothing
+[38;5;99m[49e2ad3e][0m[38;5;40m[AppiumDriver@1d07][0m New AndroidUiautomator2Driver session created successfully, session 49e2ad3e-692c-492e-a9bc-4601def55710 added to master session list
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session 200 2338 ms - 1120
+[38;5;86m[HTTP][0m --> GET /status 
+[38;5;86m[HTTP][0m <-- GET /status 404 5 ms - 2579
+[38;5;99m[49e2ad3e][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/49e2ad3e-692c-492e-a9bc-4601def55710/timeouts {"implicit":60000}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/49e2ad3e-692c-492e-a9bc-4601def55710/timeouts 200 2 ms - 14
+[38;5;99m[49e2ad3e][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/49e2ad3e-692c-492e-a9bc-4601def55710/execute/sync {"script":"mobile: getSystemBars","args":[]}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/49e2ad3e-692c-492e-a9bc-4601def55710/execute/sync 200 83 ms - 152
+[38;5;99m[49e2ad3e][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/49e2ad3e-692c-492e-a9bc-4601def55710/execute/sync {"script":"mobile: activateApp","args":[{"appId":"com.saucelabs.mydemoapp.android","bundleId":"com.saucelabs.mydemoapp.android"}]}
+[38;5;99m[49e2ad3e][0m[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: bundleId
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/49e2ad3e-692c-492e-a9bc-4601def55710/execute/sync 200 156 ms - 14
+[38;5;99m[49e2ad3e][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/49e2ad3e-692c-492e-a9bc-4601def55710/source 
+[38;5;99m[49e2ad3e][0m[38;5;-49m[AndroidUiautomator2Driver@0a96][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;99m[49e2ad3e][0m[38;5;-49m[AndroidUiautomator2Driver@0a96][0m Replacing sessionId 7ffb6a64-59bf-4c9f-ab59-f66239c8d8d6 with 49e2ad3e-692c-492e-a9bc-4601def55710
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/49e2ad3e-692c-492e-a9bc-4601def55710/source 200 174 ms - 49946
+[38;5;99m[49e2ad3e][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/49e2ad3e-692c-492e-a9bc-4601def55710/screenshot 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/49e2ad3e-692c-492e-a9bc-4601def55710/screenshot 200 397 ms - 74852
+[38;5;99m[49e2ad3e][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/49e2ad3e-692c-492e-a9bc-4601def55710/source 
+[38;5;99m[49e2ad3e][0m[38;5;-49m[AndroidUiautomator2Driver@0a96][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;99m[49e2ad3e][0m[38;5;-49m[AndroidUiautomator2Driver@0a96][0m Replacing sessionId 7ffb6a64-59bf-4c9f-ab59-f66239c8d8d6 with 49e2ad3e-692c-492e-a9bc-4601def55710
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/49e2ad3e-692c-492e-a9bc-4601def55710/source 200 102 ms - 33735
+[38;5;99m[49e2ad3e][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/49e2ad3e-692c-492e-a9bc-4601def55710/screenshot 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/49e2ad3e-692c-492e-a9bc-4601def55710/screenshot 200 499 ms - 610896
+[38;5;31m[cce514d8][0m[38;5;1m[AndroidUiautomator2Driver@3672][0m Did not get the confirmation of UiAutomator2 server session deletion. Original error: Session ID is not set, but saw a URL that requires it (/)
+[38;5;31m[cce514d8][0m[38;5;1m[AndroidUiautomator2Driver@3672][0m The UIA2 server has not been terminated within 5000ms timeout. Continuing anyway
+[38;5;31m[cce514d8][0m[38;5;1m[AndroidUiautomator2Driver@3672][0m Restoring hidden api policy to the device default configuration
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 96341 ms - 1793
+[38;5;99m[49e2ad3e][0m[38;5;86m[HTTP][0m --> DELETE /wd/hub/session/49e2ad3e-692c-492e-a9bc-4601def55710 
+[38;5;99m[49e2ad3e][0m[38;5;40m[AppiumDriver@1d07][0m Removing session 49e2ad3e-692c-492e-a9bc-4601def55710 from our master session list
+[38;5;99m[49e2ad3e][0m[38;5;-49m[AndroidUiautomator2Driver@0a96][0m Did not get the confirmation of UiAutomator2 server session deletion. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;99m[49e2ad3e][0m[38;5;-49m[AndroidUiautomator2Driver@0a96][0m Restoring hidden api policy to the device default configuration
+[38;5;86m[HTTP][0m <-- DELETE /wd/hub/session/49e2ad3e-692c-492e-a9bc-4601def55710 200 550 ms - 14

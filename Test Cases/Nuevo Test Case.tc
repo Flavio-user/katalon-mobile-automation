@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Nuevo Test Case</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Flavio Matias Baldini</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Flavio Matias Baldini</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>834b4177-2ce6-497f-b32a-bbb391c96f20</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>834b4177-2ce6-497f-b32a-bbb391c96f20</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>MOBILE_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b1c228a9-5e05-43bf-83a4-6d01f8017556</testCaseGuid>
+</TestCaseEntity>
